@@ -225,8 +225,8 @@ rm -rf ~/.config/vpn-hotspot                # app settings
 ## Build from source
 
 ```bash
-git clone https://github.com/<you>/linux-vpn-hotspot.git
-cd linux-vpn-hotspot
+git clone https://github.com/geek-sajjad/VPN-Hotspot-for.git
+cd VPN-Hotspot-for
 ./bin/vpn-hotspot                       # run without installing
 ./install.sh                            # or add it to your app menu (no sudo)
 python3 -m unittest discover -s tests   # tests
@@ -244,6 +244,10 @@ Releases are built by GitHub Actions. Bump `__version__` in
 | `helper/vpn-hotspot-firewall.sh` | root helper for the UFW rules (`install`, `remove`, `status`) |
 | `packaging/` | .deb and AppImage build scripts, desktop file, icon |
 | `~/.config/vpn-hotspot/config.json` | app settings (Wi-Fi name and password are stored in NetworkManager) |
+
+## License
+
+[MIT](LICENSE): free to use, change and share.
 
 ---
 

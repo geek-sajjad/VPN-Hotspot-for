@@ -13,6 +13,7 @@ REPO="$(git -C "$ROOT" remote get-url origin 2>/dev/null | sed -E 's#^(git@|http
 "$ROOT/packaging/stage.sh" "$PKG"
 install -d "$PKG/DEBIAN" "$PKG/usr/share/doc/vpn-hotspot"
 install -m 644 "$ROOT/README.md" "$PKG/usr/share/doc/vpn-hotspot/"
+install -m 644 "$ROOT/LICENSE" "$PKG/usr/share/doc/vpn-hotspot/copyright"
 
 cat > "$PKG/DEBIAN/control" <<CONTROL
 Package: vpn-hotspot
