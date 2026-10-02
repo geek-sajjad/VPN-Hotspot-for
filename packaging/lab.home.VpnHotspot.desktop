@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=VPN Hotspot
+Comment=Share this PC's VPN over a Wi-Fi hotspot
+Exec=vpn-hotspot
+Icon=lab.home.VpnHotspot
+Terminal=false
+Categories=Network;
+Keywords=hotspot;wifi;vpn;tv;
+StartupWMClass=lab.home.VpnHotspot
